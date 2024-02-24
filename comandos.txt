@@ -1,0 +1,6 @@
+
+Inicializacion----------- 
+npm init -y
+
+instalacion----------------
+ npm install -D tailwindcss
