@@ -4,3 +4,31 @@ npm init -y
 
 instalacion----------------
  npm install -D tailwindcss
+
+ configuro tailwindcss------------
+ npx tailwind init 
+
+compila las clases de tailwindcss------------
+npx tailwindcss -i tailwind.css -o styles.css --minify
+
+Modo automatico ----------
+
+instalacion de vite-----------
+npm i -D  vite postcss autoprefixer
+
+configuracion del postcss
+λ npx tailwind init -p
+
+configurmos el vite en package.json
+
+"scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+
+corremos vite------------
+ npm run dev
+
+
+
